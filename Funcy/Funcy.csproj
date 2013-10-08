@@ -42,13 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Domain\Customer.cs" />
+    <Compile Include="FuncyExtensions.cs" />
+    <Compile Include="Services\BetterCustomerService.cs" />
     <Compile Include="Services\CustomerService.cs" />
     <Compile Include="ICacheService.cs" />
+    <Compile Include="Services\FuncyCustomerService.cs" />
     <Compile Include="Services\ICustomerRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Domain\Order.cs" />
-    <Compile Include="Services\IOrdersRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
